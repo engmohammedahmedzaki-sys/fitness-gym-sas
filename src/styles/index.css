@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Cairo, Almarai, system-ui, sans-serif;
+  background: #050816;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #050816;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(0, 163, 255, 0.35);
+  color: #ffffff;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .print-card,
+  .print-card * {
+    visibility: visible;
+  }
+
+  .print-card {
+    position: fixed;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    background: #ffffff;
+  }
+}
