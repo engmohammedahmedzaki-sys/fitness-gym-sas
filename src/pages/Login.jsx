@@ -137,6 +137,13 @@ export default function Login() {
           تسجيل الدخول
         </button>
 
+        <a
+          href="/signup?plan=trial"
+          className="mt-3 block rounded-2xl border border-white/12 bg-white/[0.06] px-5 py-3 text-center text-sm font-extrabold text-white/76 transition hover:text-white"
+        >
+          تسجيل جديد / تجربة مجانية 14 يوم
+        </a>
+
         <p className="mt-5 text-center text-xs font-bold text-white/42">Developed by Mohamed Zaki - Panda Plus</p>
       </motion.form>
     </main>

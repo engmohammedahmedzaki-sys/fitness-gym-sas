@@ -79,8 +79,8 @@ export default function Landing() {
             <Link to="/login" className="rounded-2xl border border-white/12 bg-white/[0.06] px-4 py-2 text-sm font-extrabold text-white/82 transition hover:text-white">
               دخول
             </Link>
-            <Link to="/signup?plan=trial" className="hidden rounded-2xl bg-panda-gold px-4 py-2 text-sm font-extrabold text-midnight-950 shadow-glass sm:inline-flex">
-              اشترك
+            <Link to="/signup?plan=trial" className="rounded-2xl bg-panda-gold px-4 py-2 text-sm font-extrabold text-midnight-950 shadow-glass">
+              تسجيل جديد
             </Link>
           </div>
         </div>
