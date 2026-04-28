@@ -13,6 +13,7 @@ import {
   Globe2,
   LockKeyhole,
   MessageCircle,
+  Megaphone,
   QrCode,
   ShieldCheck,
   Sparkles,
@@ -51,6 +52,11 @@ const featureBlocks = [
     title: 'دول وعملات متعددة',
     description: 'مصر، السعودية، الإمارات، الكويت، مع عملة وضريبة وسعر مناسب حسب بلد العميل.',
     icon: Globe2,
+  },
+  {
+    title: 'SEO وتسويق جاهز',
+    description: 'إعدادات Google Search Console وAds وBing وMeta وPinterest وأكواد Head وBody وFooter.',
+    icon: Megaphone,
   },
 ];
 

@@ -22,6 +22,7 @@ const ReportsCenter = lazy(() => import('./pages/ReportsCenter.jsx'));
 const PrintSettings = lazy(() => import('./pages/PrintSettings.jsx'));
 const LocalizationSettings = lazy(() => import('./pages/LocalizationSettings.jsx'));
 const Permissions = lazy(() => import('./pages/Permissions.jsx'));
+const MarketingSettings = lazy(() => import('./pages/MarketingSettings.jsx'));
 
 export const GymContext = createContext(null);
 
@@ -109,6 +110,7 @@ export default function App() {
             <Route path="print-settings" element={<PrintSettings />} />
             <Route path="localization-settings" element={<LocalizationSettings />} />
             <Route path="permissions" element={<Permissions />} />
+            <Route path="marketing-settings" element={<MarketingSettings />} />
             <Route path="basic-data" element={<BasicData />} />
             <Route path="basic-data/:section" element={<BasicDataManager />} />
             <Route path="*" element={<Navigate to="/app" replace />} />

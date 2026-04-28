@@ -81,3 +81,13 @@ export const roles = [
   { id: 'reception', name: 'استقبال', permissions: ['الحضور', 'تجديد الاشتراك', 'طباعة الباركود'] },
   { id: 'coach', name: 'مدرب', permissions: ['حضور الحصص', 'متابعة الأعضاء', 'الجدول'] },
 ];
+
+export const marketingIntegrations = [
+  { id: 'gsc', name: 'Google Search Console', field: 'HTML verification meta tag', status: 'SEO' },
+  { id: 'google-ads', name: 'Google Ads', field: 'Conversion ID / Label', status: 'Ads' },
+  { id: 'ga4', name: 'Google Analytics 4', field: 'Measurement ID', status: 'Analytics' },
+  { id: 'bing', name: 'Bing Webmaster Tools', field: 'Verification code', status: 'SEO' },
+  { id: 'meta', name: 'Meta Pixel', field: 'Pixel ID', status: 'Social' },
+  { id: 'pinterest', name: 'Pinterest Tag', field: 'Tag ID', status: 'Social' },
+  { id: 'merchant', name: 'Google Merchant Center', field: 'Merchant verification / feed URL', status: 'Commerce' },
+];
